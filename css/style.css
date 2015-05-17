@@ -14,7 +14,7 @@
 .frontpage-header-banner {
     background: #448822; /* 2980B9;*/
     color: #ffffff;
-    padding: 40px 40px 20px 80px;
+    padding: 40px 40px 20px 0px;
 }
 .frontpage-header-banner h1 {
     font-size: 100px;
