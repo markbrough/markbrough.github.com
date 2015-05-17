@@ -1,0 +1,11 @@
+name: "Mark Brough"
+description: ""
+
+url: "http://brough.io"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
+
