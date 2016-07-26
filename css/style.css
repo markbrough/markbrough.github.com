@@ -34,7 +34,7 @@
 body {
     background-color: #ECF0F1;
     font-family: "Open Sans";
-    font-size:25px;
+    font-size:20px;
 }
 .frontpage .container-body {
   padding-top:30px;
@@ -51,6 +51,40 @@ body {
 }
 .container-header {
   border-bottom: 2px solid #ffffff;
+}
+.work-container {
+  clear:both;
+  width:100%;
+}
+.work {
+  width: 100%;
+  padding: 12px;
+  margin: 4px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.work h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.when {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.more-link {
+  background-color: #ECF0F1;
+  padding:2px;
+  font-size:12px;
+  border: 1px solid #dddddd;
+  border-radius: 1px;
+}
+footer {
+  background-color: #ffffff;
+  padding: 10px;
+  border-top: 2px solid #eeeeee;
+  font-size: 16px;
 }
 /*
 
