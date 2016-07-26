@@ -1,3 +1,13 @@
 {% include frontpage_header.html %}
 {{ content }}
+<h2>Experience</h2>
+<div class="work-container">
+{% for work in site.categories.work %}
+  <div class="work">
+    <h3>{{ work.title }}</h3>
+    <p class="when">{{ work.from }} &ndash; {{ work.to }}</p>
+    <div class="detail" id="{{ work.title | slugify }}">{{ work.content }}</div>
+  </div>
+{% endfor %}
+</div>
 {% include footer.html %}
