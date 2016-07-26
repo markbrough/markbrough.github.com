@@ -9,4 +9,3 @@ markdown: rdiscount
 exclude: [CNAME, README.md, .gitignore]
 permalink: pretty
 pygments: true
-
