@@ -6,4 +6,3 @@ url: "http://brough.io"
 markdown: kramdown
 exclude: [CNAME, README.md, .gitignore]
 permalink: pretty
-highlighter: pygments
