@@ -3,6 +3,6 @@ title: Mark Brough
 layout: frontpage
 ---
 
-I work in open data and development, applying data and technology to help address pressing policy questions. I'm interested in how information can help make broken systems work better and make individuals and institutions more accountable.
+I'm a consultant on issues around aid management, PFM and governance, with a particular focus on the links between technical systems and policy processes. I have worked in Bangladesh, France, Georgia, Germany, Liberia, Myanmar, the US, the UK.
 
-My past approaches have included advocacy, policy development, data wrangling and programming. My professional experience has focused on aid, budgets, and the links between the two. I'm an economist by training and based in Berlin.
+My work experience includes advocacy / policy development and technical advice in the government and non-profit sectors, as well as software development as a Python programmer. My educational background focused on economics and politics. I have experience in the following areas: aid / IATI data; climate finance; extractive industries / EITI data; IFMIS; integration of aid and IFMIS systems; procurement and Open Contracting. I speak English and German, with some French and Spanish.
