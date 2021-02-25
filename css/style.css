@@ -12,9 +12,6 @@
     color: #dddddd;
 }
 .frontpage-header-banner {
-    background: #448822; /* 2980B9;*/
-    color: #ffffff;
-    padding: 40px 40px 20px 0px;
 }
 .frontpage-header-banner h1 {
     font-size: 100px;
@@ -50,6 +47,9 @@ body {
   text-decoration:none;
 }
 .container-header {
+  background: #448822; /* 2980B9;*/
+  color: #ffffff;
+  padding: 40px 0px 20px 0px;
   border-bottom: 2px solid #ffffff;
 }
 .work-container {
@@ -59,7 +59,7 @@ body {
 .work {
   width: 100%;
   padding: 12px;
-  margin: 4px;
+  margin: 4px 4px 10px;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 3px;
@@ -67,11 +67,15 @@ body {
 }
 .work h3 {
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 4px;
 }
 .when {
   font-size: 14px;
-  color: #aaaaaa;
+  color: #666666;
+}
+.company {
+  font-size: 16px;
+  margin-bottom:0px;
 }
 .more-link {
   background-color: #ECF0F1;
@@ -81,9 +85,10 @@ body {
   border-radius: 1px;
 }
 footer {
+  margin-top: 30px;
   background-color: #ffffff;
-  padding: 10px;
-  border-top: 2px solid #eeeeee;
+  padding: 20px;
+  border-top: 1px solid #bbbbbb;
   font-size: 16px;
 }
 /*
