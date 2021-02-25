@@ -1,14 +1,29 @@
 {% include frontpage_header.html %}
+<div class="alert alert-secondary lead">
 {{ content }}
+</div>
+<div class="row justify-content-md-center">
+  <div class="col-md-8">
+    <hr />
+  </div>
+</div>
 <h2>Experience</h2>
 <div class="work-container">
-{% for work in site.categories.work %}
-  <div class="work">
-    <h3>{{ work.excerpt }}</h3>
-    <p class="company">{{ work.title }}</p>
-    <p class="when">{{ work.from }} &ndash; {{ work.to }}</p>
-    <div class="detail" id="{{ work.title | slugify }}">{{ work.content }}</div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  {% for work in site.categories.work %}
+    <div class="col">
+      <div class="card mb-1">
+        <div class="card-header text-white bg-dark ">
+          {{ work.title }}
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ work.excerpt }}</h5>
+          <p class="when">{{ work.from }} &ndash; {{ work.to }}</p>
+          <p class="card-text">{{ work.content }}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
   </div>
-{% endfor %}
 </div>
 {% include footer.html %}
