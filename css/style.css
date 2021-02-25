@@ -10,10 +10,12 @@
     color: #dddddd;
 }
 .frontpage-header-banner {
+  padding:10px;
 }
 .frontpage-header-banner h1 {
     font-size: 100px;
     padding-top: 20px;
+    line-height: 1;
 }
 .frontpage-header-banner h2 {
     font-size:45px;
