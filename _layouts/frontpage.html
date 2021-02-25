@@ -4,7 +4,8 @@
 <div class="work-container">
 {% for work in site.categories.work %}
   <div class="work">
-    <h3>{{ work.title }}</h3>
+    <h3>{{ work.excerpt }}</h3>
+    <p class="company">{{ work.title }}</p>
     <p class="when">{{ work.from }} &ndash; {{ work.to }}</p>
     <div class="detail" id="{{ work.title | slugify }}">{{ work.content }}</div>
   </div>
