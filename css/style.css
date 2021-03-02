@@ -9,24 +9,34 @@
 .navbar-markbrough a:hover {
     color: #dddddd;
 }
-.frontpage-header-banner {
-  padding:10px;
+.header-banner {
+  padding: 5px;
+
 }
-.frontpage-header-banner h1 {
+.header-banner h1, .header-banner h2 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.header-banner h1 {
+  font-size: 50px;
+}
+.header-banner a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-banner a:hover {
+  text-decoration: underline;
+}
+.frontpage .header-banner {
+  padding: 10px;
+}
+.frontpage .header-banner h1 {
     font-size: 100px;
     padding-top: 20px;
     line-height: 1;
 }
-.frontpage-header-banner h2 {
+.frontpage .header-banner h2 {
     font-size:45px;
     padding-top:0px;
-}
-.frontpage-header-banner h1, .frontpage-header-banner h2 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-}
-.frontpage-header-banner .container {
-    /*background: #2980B9 url("../background.png") no-repeat right top;
-    height:300px;*/
 }
 body {
     background-color: #ECF0F1;
@@ -35,7 +45,21 @@ body {
 .frontpage .container-body {
   padding-top:30px;
 }
+.projects .container-body {
+  background-color: #ffffff;
+  padding: 20px;
+}
+.projects .bg-success {
+  background-color: #448822!important;
+}
+.projects .organisation {
+  white-space: initial;
+}
+.frontpage .contacts-box {
+  font-size:16px;
+}
 .contacts-box {
+  margin: auto;
   font-size:16px;
 }
 .contacts-box a {
@@ -48,8 +72,30 @@ body {
 .container-header {
   background: #448822; /* 2980B9;*/
   color: #ffffff;
-  padding: 40px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
   border-bottom: 2px solid #ffffff;
+}
+.projects-container #projectCarousel {
+  box-shadow: 0px 0px 6px #aaaaaa;
+  margin-bottom: 20px;
+}
+.projects-container #projectCarousel .carousel-caption {
+  background-color: rgba(128, 128, 128, .95) ;
+  color: #ffffff;
+  left: 0;
+  right: 0;
+  bottom: 2rem;
+  padding: 1rem 0.75rem;
+  text-shadow: 1px #000000;
+}
+.projects-container .card-header {
+  box-shadow: 0px 2px 6px #aaaaaa;
+}
+.projects-container .card-img-top {
+  transition: transform .2s; /* Animation */
+}
+.projects-container .card-img-top:hover {
+  transform: scale(1.05)
 }
 /*
 .work-container {
@@ -85,8 +131,10 @@ body {
   border: 1px solid #dddddd;
   border-radius: 1px;
 }
-footer {
+.frontpage footer {
   margin-top: 30px;
+}
+footer {
   background-color: #ffffff;
   padding: 20px;
   border-top: 1px solid #bbbbbb;
