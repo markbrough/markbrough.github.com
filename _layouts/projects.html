@@ -3,7 +3,8 @@
 <br class="mb-2" />
 <div class="projects-container">
   <div class="row row-cols-1 row-cols-md-3 g-4">
-  {% for project in site.projects %}
+  {% assign sorted = site.projects | sort: 'order' %}
+  {% for project in sorted %}
     <div class="col">
       <div class="card mb-1">
         <a href="{{ project.url }}">
