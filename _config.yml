@@ -1,7 +1,7 @@
 name: "Mark Brough"
 description: ""
 
-url: "http://brough.io"
+url: "https://brough.io"
 
 markdown: kramdown
 exclude: [CNAME, README.md, .gitignore]
@@ -10,4 +10,3 @@ permalink: pretty
 collections:
   projects:
     output: true
-    sort_by: order
