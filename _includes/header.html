@@ -6,38 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.description }}">
 
-    <link href="/css/bootstrap.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px;
-      }
-    </style>
-    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz" type='text/css'>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" type='text/css'>
+    <link href="/css/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
-ript>
-    <![endif]-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type='text/css'>
+    <link href="/css/style.css" rel="stylesheet">
   </head>
 
-  <body>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
+  <body class="projects">
+    <div class="container-header">
       <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".na\
-  v-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a class="navbar-brand" href="#">{{ site.name }}</a>
-        <div class="nav-collapse collapse">
-          <ul class="nav">
-            <li class="active"><a href="/">Home</a></li>
+        <div class="row header-banner">
+          <div class="col-md-8">
+            <h1><a href="/">Mark Brough</a></h1>
+          </div>
+          <div class="col-md-4 contacts-box">
+            <i class="fa fa-envelope-square fw"></i>
+            <a href="mailto:mark@brough.io">mark@brough.io</a>
+            <br />
+            <i class="fa fa-twitter-square fw"></i>
+            <a href="http://twitter.com/mark_brough">@mark_brough</a>
+            <br />
+            <i class="fa fa-github-square fw"></i>
+            <a href="http://github.com/markbrough">github.com/markbrough</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff; border-bottom: 1px solid #dddddd">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"  href="/projects/">Projects</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container container-body">
