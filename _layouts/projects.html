@@ -1,0 +1,27 @@
+{% include header.html %}
+{{ content }}
+<br class="mb-2" />
+<div class="projects-container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  {% for project in site.projects %}
+    <div class="col">
+      <div class="card mb-1">
+        <a href="{{ project.url }}">
+          <img src="{{ project.image }}" class="card-img-top" alt="{{ project.title }}">
+        </a>
+        <div class="card-header text-white bg-success">
+          {{ project.title }}
+        </div>
+        <div class="card-body">
+          <p class="organisation badge bg-secondary">{{ project.organisation }}</p>
+          <p class="when">{{ project.from }} &ndash; {{ project.to }}</p>
+          <p class="card-text">{{ project.excerpt }}</p>
+          {% if project.github_url %}<a href="{{ project.github_url }}" class="card-link">Github</a>{% endif %}
+          {% if project.live_url %}<a href="{{ project.live_url }}" class="card-link">Live site</a>{% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</div>
+{% include footer.html %}

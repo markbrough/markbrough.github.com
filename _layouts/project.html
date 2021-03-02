@@ -1,0 +1,59 @@
+{% include header.html %}
+{% assign project = page %}
+<div class="projects-container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card-body">
+        <h3 class="card-title">{{ project.title }}</h3>
+        <p class="organisation badge bg-secondary">{{ project.organisation }}</p>
+        <p class="when">{{ project.from }} &ndash; {{ project.to }}</p>
+        <p class="card-text">{{ project.content }}</p>
+        {% if project.github_url %}<p>
+          <i class="fa fa-github-square fw"></i>
+          <a href="{{ project.github_url }}" class="card-link">Code on Github</a>
+        </p>{% endif %}
+        {% if project.live_url %}<p>
+          <i class="fa fa-external-link fw"></i>
+          <a href="{{ project.live_url }}" class="card-link">Live site</a>
+        </p>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% if project.carousel_items %}
+  <div class="row justify-content-md-center">
+    <div class="col-md-8">
+      <div id="projectCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        {% if project.carousel_items.size >1 %}
+        <div class="carousel-indicators">
+          {% for carousel_item in project.carousel_items %}
+            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="{{ forloop.index0 }}" {% if forloop.first %} class="active" aria-current="true" {% endif %} aria-label="Slide {{ forloop.index0 }}"></button>
+            {% endfor %}
+        </div>
+        {% endif %}
+        <div class="carousel-inner">
+          {% for carousel_item in project.carousel_items %}
+          <div class="carousel-item {% if forloop.first %} active{% endif %}">
+            <img src="{{ carousel_item.img }}" class="d-block w-100" alt="{{ carousel_item.title }}">
+            <div class="carousel-caption d-none d-md-block">
+              <p>{{ carousel_item.description }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        {% if project.carousel_items.size >1 %}
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% include footer.html %}
