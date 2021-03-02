@@ -6,3 +6,8 @@ url: "http://brough.io"
 markdown: kramdown
 exclude: [CNAME, README.md, .gitignore]
 permalink: pretty
+
+collections:
+  projects:
+    output: true
+    sort_by: order
