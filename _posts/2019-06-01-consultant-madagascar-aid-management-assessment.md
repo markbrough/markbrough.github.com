@@ -1,5 +1,5 @@
 ---
-title: The World Bank
+title: World Bank Group
 category: work
 excerpt: Consultant, Madagascar Aid Management Assessment
 from: May 2019
