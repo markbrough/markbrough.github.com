@@ -1,6 +1,6 @@
 ---
 title: IATI Data Use Working Group
-category: voluntary
+category: work
 excerpt: Chair
 from: January 2021
 to: Present
