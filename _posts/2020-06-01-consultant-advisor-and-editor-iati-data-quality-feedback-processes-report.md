@@ -1,7 +1,7 @@
 ---
 title: Catalpa International
 category: work
-excerpt: Consultant (advisor and editor), IATI Data Quality Feedback Processes report
+excerpt: Advisor and editor, IATI Data Quality Feedback Processes report
 from: Apr 2020
 to: Jun 2020
 ---

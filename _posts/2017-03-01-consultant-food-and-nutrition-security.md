@@ -1,7 +1,7 @@
 ---
 title: Welthungerhilfe
 category: work
-excerpt: Consultant, Food and Nutrition Security
+excerpt: Researcher, Food and Nutrition Security
 from: Nov 2016
 to: Mar 2017
 ---

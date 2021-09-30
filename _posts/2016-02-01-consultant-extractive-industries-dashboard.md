@@ -1,7 +1,7 @@
 ---
 title: Natural Resource Governance Institute
 category: work
-excerpt: Consultant, Extractive Industries Dashboard
+excerpt: Developer, Extractive Industries Dashboard
 from: Jun 2015
 to: Feb 2016
 ---

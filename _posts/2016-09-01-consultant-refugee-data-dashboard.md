@@ -1,7 +1,7 @@
 ---
 title: The ONE Campaign
 category: work
-excerpt: Consultant, Refugee Data Dashboard
+excerpt: Researcher, Refugee Data Dashboard
 from: Aug 2016
 to: Sep 2016
 ---

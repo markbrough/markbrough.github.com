@@ -1,7 +1,7 @@
 ---
 title: World Bank Group
 category: work
-excerpt: Consultant, Madagascar Aid Management Assessment
+excerpt: Madagascar Aid Management Assessment
 from: May 2019
 to: Jun 2019
 ---

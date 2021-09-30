@@ -1,7 +1,7 @@
 ---
 title: British Council
 category: work
-excerpt: Consultant (Advisor / Project Manager), Climate Finance
+excerpt: Advisor / Project Manager, Climate Finance
 from: Aug 2017
 to: Mar 2018
 ---

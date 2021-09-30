@@ -1,7 +1,7 @@
 ---
 title: Ministère des Affaires étrangères français
 category: work
-excerpt: Consultant, Project database
+excerpt: Developer, Project database
 from: Dec 2015
 to: Mar 2016
 ---

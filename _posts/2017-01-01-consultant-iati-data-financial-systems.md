@@ -1,7 +1,7 @@
 ---
 title: USAID / PWYF
 category: work
-excerpt: Consultant, IATI data / financial systems
+excerpt: Advisor, financial systems and transparency
 from: Oct 2016
 to: Jan 2017
 ---

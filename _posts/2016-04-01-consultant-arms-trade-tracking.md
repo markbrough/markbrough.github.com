@@ -1,7 +1,7 @@
 ---
 title: The Engine Room - theengineroom.org
 category: work
-excerpt: Consultant, Arms trade tracking
+excerpt: Researcher, Arms trade tracking
 from: Jan 2016
 to: Apr 2016
 ---

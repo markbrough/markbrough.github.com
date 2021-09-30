@@ -1,7 +1,7 @@
 ---
 title: UNDP
 category: work
-excerpt: Consultant (Advisor / Project Manager), Using IATI data in Bangladesh AIMS
+excerpt: Advisor / Project Manager, Using IATI data in Bangladesh AIMS
 from: Sep 2015
 to: Feb 2017
 ---
